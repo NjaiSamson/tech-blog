@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+   
 #about-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
     height: 66vh;
+    
 }
 
 #card {

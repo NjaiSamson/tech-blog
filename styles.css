@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -49,7 +50,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 66vh;
-    background-image: url("./images/pexels-goumbik-574071.jpg");
+    background-image: url("./images/code2.jpg");
     background-size: cover;
 }
 
