@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 66vh;
+}
+
+#card {
+    width: 40vw;
+    height: fit-content;
+    background-color: #44444420;
+    padding: 2rem;
+    border-radius: 8px;
+    color: #000000;
+}

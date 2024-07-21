@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#blog-introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url("./images/pexels-goumbik-574071.jpg");
+    background-size: cover;
+}
+
+#blogs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.blog-content {
+        width: 40vw;
+        height: fit-content;
+        background-color: #44444420;
+        padding: 2rem;
+        border-radius: 8px;
+        color: #000000;
+        margin-bottom: 2rem;
+}
+
+.blog-content h3 {
+    padding-bottom: 0.5rem;
+}
+
+.blog-content p {
+    padding-bottom: 0.5rem;
+}

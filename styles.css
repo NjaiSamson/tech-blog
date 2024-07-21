@@ -40,25 +40,68 @@ header {
 }
 
 #nav-links ul li a:hover {
-    background-color: rgb(24, 24, 226);
-    color: white;
+    color: red;
 }
 
 #hero-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 92vh;
+    height: 66vh;
     background-image: url("./images/pexels-goumbik-574071.jpg");
     background-size: cover;
 }
 
 h1 {
-    background-color: black;
-    color: white;
     padding: 1rem;
     border-radius: 10px;
 }
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    align-items: center;
+    background-color: #00000090;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.intro h3 {
+    padding-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    background-color: bisque;
+    height: 26vh;
+}
+
+.footer-divs {
+    padding: 1rem;
+}
+
+h4 {
+    padding-bottom: 5px;
+}
+.footer-links ul li {
+    padding-top: 5px;
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    color: red;
+}
+
 /* Responsiveness  */
 @media (max-width: 768px) {
     header {
